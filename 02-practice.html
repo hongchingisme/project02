@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body{
+            background: linear-gradient(-20deg,#a8edea,#fed6e3);
+        }
+
+        .wrap{
+       
+          height: 100vh;
+          display: flex; 
+          align-items: center;
+        }
+
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            display: flex; 
+        }
+
+        .item{
+            width: 368px;
+            height: 198px;
+            display: flex; 
+            align-items: center;
+            margin: 0 15px;
+            border: 1px solid #a8edef;
+            box-shadow: 0 5px 30px rgba(127,255,212,.3);
+
+           
+        }
+
+   
+
+        .item .img img{
+            width: 198px;
+            height: 198px;
+            object-fit: cover;
+            display: flex; 
+            
+        }
+
+        .item .text {
+            width: 50%;
+            height: 200px;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            /*justify-content: center;*/
+            
+        }
+
+        .item .text h3{
+
+            font-size: 20px;
+            padding: 10px;
+
+        }
+        .item .text p{
+            font-size: 13px;
+            padding: 10px;
+
+        }
+
+        .item .text .bt{
+            
+            line-height: 2em;
+            border: 1px solid teal;
+            padding: 0 1em;
+            align-self: flex-end;
+            border-radius: 100px;
+            text-decoration: none;
+            margin-top: auto;
+            color:seagreen;
+        }
+
+        .item .text .bt:hover{
+            background-color: aquamarine;
+            color:black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="item">
+                <div class="img"><img src="img01.jfif"></div>
+                <div class="text">
+                    <h3>天氣之子</h3>
+                    <p>離家出的少年與擁有「改變天氣」的奇妙能力的少女！在氣候異常的時代，該如何「選擇」自己的生活？</p>
+                    <a href="#" class="bt">more</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img"><img src="img02.jfif"></div>
+                <div class="text">
+                    <h3>你的名字</h3>
+                    <p>動畫電影《你的名字》講訴的是相隔遙遠的少男少女在夢中相見、相識、相戀的故事。</p>
+                    <a href="#" class="bt">more</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img"><img src="img03.jfif"></div>
+                <div class="text">
+                    <h3>秒速五公分</h3>
+                    <p>對於初戀的不捨，有人選擇繼續前進，也有人選擇原地踏步，可以再選一次的話，還能在櫻花樹下賞櫻嗎？</p>
+                    <a href="#" class="bt">more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
